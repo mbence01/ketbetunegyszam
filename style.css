@@ -1,0 +1,216 @@
+body {
+    background: #E5E2E2;
+}
+
+a {
+    text-decoration: none;
+	color: darkslategrey;
+}
+
+.tabla-div {
+    text-align: center;
+}
+
+.tabla-div span {
+    transition: 0.7s;
+    color: #e5e2e2;
+    font-size: 20px;
+    font-family: calibri;
+}
+
+.tabla {
+    width: 100%;
+}
+
+.tabla tr td {
+    transition: 0.7s;
+    background: rgba(0,0,0,0.8);
+    width: 150px;
+}
+
+.tabla tr td:hover {
+    transition: 0.7s;
+    background: rgba(255,255,255,0.8);
+	color: black;
+}
+
+.tabla tr td:hover > .tabla tr td span {
+    transition: 0.7s;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+#data-td {
+	background: rgba(0,0,0,0.3);
+	overflow: hidden;
+}
+
+.search {
+    transition: 0.7s;
+    color: darkslategrey;
+    font-size: 20px;
+    font-family: calibri;
+    text-shadow: 1px 1px 1px black;
+	text-indent: 10px;
+}
+
+.navigate-btn {
+	margin-top: 50px;
+	width: 30%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: rgba(0,0,0,.5);
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	transition: .5s;
+}
+
+.img-btn {
+	color: white;
+	font-weight: bold;
+	padding: 10px 10px;
+	background: rgba(0,0,0,.5);
+	transition: .5s;
+}
+
+.img-btn:hover {
+	cursor: pointer;
+	background: rgba(0,0,0,.7);
+	transition: .5s;
+}
+
+.navigate-btn:hover {
+	cursor: pointer;
+	background: rgba(0,0,0,0.8);
+	transition: .5s;
+}
+
+.search_input {
+    width:250px;
+    height:25px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid darkslategrey;
+    text-indent: 5px;
+}
+
+.s-submit {
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid darkslategrey;
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+.s-submit:hover {
+    cursor: pointer;
+}
+
+.profile_table {
+    text-align: left;
+}
+
+p.search {
+}
+
+.title-table {
+	width: 100%;
+}
+
+#menusor {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 10px;
+	background: rgba(199,196,196,1);
+	color: darkslategrey;
+    font-size: 20px;
+    font-family: calibri;
+    text-shadow: 1px 1px 1px black;
+	width: 100%;
+}
+
+#menusor ul li {
+	padding: 5px;
+	background: rgba(255,255,255,0.5);
+	list-style: none;
+}
+
+#menusor li:hover > ul{
+	display: block; 
+} 
+
+#menusor ul{
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	list-style: none;  
+	display: none;
+}
+
+.pages-nav {
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.pages-nav a:hover {
+	text-decoration: underline;
+}
+
+.div-plates {
+	display: none;
+	background: darkslategrey;
+	color: white;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+}
+
+.plate-a:hover {
+	text-decoration: underline;
+}
+
+.tbl {
+	text-align: left;
+}
+
+.index-menu {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+}
+
+.index-menu a {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+.index-menu a:hover {
+    background: rgba(0,0,0,0.2);
+}
+
+.search-for-plate-input {
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 100%;
+	height: 32px;
+	background: rgba(0,0,0,0.4);
+	border: 1px solid white;
+	color: white;
+	font-weight: bold;
+	text-indent: 5px;
+}
+
+.tabla-div:hover {
+	color:black;
+}
